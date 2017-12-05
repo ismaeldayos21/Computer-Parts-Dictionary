@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Computer Parts Dictionary</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="stylesheet" href="css/framework7.material.min.css">
+      <link rel="stylesheet" href="css/jquery.mobile-1.4.3.min.css">
+      <link rel="stylesheet" href="css/styles.css" />
+      <script type="text/javascript" src="js/framework7.min.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.3.min.js"></script>
+      <script src="js/process.js"></script>
+    </head>
+    <body>
+      <section data-role="page" id="gate">
+        <div class="navbar">
+        <div class="navbar-inner">
+        <div class="center"><h3>Computer Parts</h3></div>
+          <img src="img/book.png">
+        </div>        
+        </div>
+        <div class="toolbar">
+        <div class="toolbar-inner">
+          <a href="#about" class="link"><h2><font color = "black">About</font></h2></a>
+          <a href="#help" class="link"><h2><font color = "black">Help</font></h2></a>
+        </div>
+        </div>
+        <div align="center" role="content" class="centered_content ui-content"><br><br>
+          <a role="button" href="#words" role-transition="slide" role="button"><h2>Search</h2></a>
+          <a role="button" href="#developer" role-transition="slide" role="button"><h2>Developer</h2></a>
+          <br>
+          <div align="left"><p><h3>Produced by:</h3></p>
+            <h2><font color ="red">&emsp;&emsp;&emsp;Ismael Day-os</font></h2>
+            
+          </div>
+          
+        </div>
+        <br><br><br><br>
+        <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      <section data-role="page" id="words">
+        <div class="content-block">
+          <input type="text" id="thanWords" onkeyup="myFunction()" placeholder="Search.." title="Dictionary">
+            <div class="page-content">
+              <div class="list-block">
+                <div class="content">
+                  <div class="content-block" >
+                    <oool id="WordList" >
+                      <ul>
+                        <a href="#monitor">
+                        <div class="item-inner">
+                        <div class="item-title">Monitor</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#mouse">
+                        <div class="item-inner">
+                        <div class="item-title">Mouse</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#keyboard">
+                        <div class="item-inner">
+                        <div class="item-title">Keyboard</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#webcam">
+                        <div class="item-inner">
+                        <div class="item-title">Webcam</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#cpu">
+                        <div class="item-inner">
+                        <div class="item-title">CPU (Central Processing Unit)</div>
+                        </div>
+                        </a>
+                      </ul>
+                                           <ul>
+                        <a href="#printer">
+                        <div class="item-inner">
+                        <div class="item-title">Printer</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#speaker">
+                        <div class="item-inner">
+                        <div class="item-title">Speaker</div>
+                        </div>
+                        </a>
+                      </ul>
+
+                      <ul>
+                        <a href="#headphone">
+                        <div class="item-inner">
+                        <div class="item-title">Headphone</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                        <a href="#usb">
+                        <div class="item-inner">
+                        <div class="item-title">Flash Drive</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                      <a href="#hdd">
+                        <div class="item-inner">
+                        <div class="item-title">Hard Disk Drive</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                      <a href="#modem">
+                        <div class="item-inner">
+                        <div class="item-title">Modem</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                      <a href="#computer">
+                        <div class="item-inner">
+                        <div class="item-title">Computer</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                      <a href="#scanner">
+                        <div class="item-inner">
+                        <div class="item-title">Scanner</div>
+                        </div>
+                        </a>
+                      </ul>
+                      <ul>
+                      <a href="#vc">
+                        <div class="item-inner">
+                        <div class="item-title">Video Card</div>
+                        </div>
+                        </a>
+                      </ul>
+                    </oool>
+                  </div>
+                </div>    
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section data-role="page" id="help">
+        <div class="center"></div>
+        <div class="pagee-content">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title"><b><center>Help</center>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b></span>
+                <p>&emsp;&emsp;&emsp;&emsp;If you have some question please find and ask Ismael Day-os</p>
+              </div>
+            </div>
+            <a href="#gate">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="img/home1.png"  class="cutelogo" align="left"></a>
+          </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="developer"><br>
+        <p><h1 align="left" ><img src="img/developer.png" size="200"></h1></p>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b><center>Developer</center>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b></span>
+                <p>&emsp;&emsp;&emsp;&emsp;This app was developed by Ismael Day-os if you want me please contact me at 09303425931, you know inf want to talk.
+            </div>
+          </div>
+          <a href="#gate">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="img/home1.png"  class="cutelogo" align="left"></a>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="about"><br>
+        <div align="left" ><img src="img/about2.png" size="200"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>ABOUT&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b></span>
+                <p>&emsp;&emsp;&emsp;&emsp;This application is made for the IT and CS students to have knowledge about <b>Computer Parts</b> so that they can easily understand what is computer all about.</p>
+              </div>
+            </div>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="left" ></a>
+            </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="monitor"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Monitor&emsp;&emsp;</b></span>
+                  <img src="img/monitor.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>The term "monitor" is often used synonymously with "computer screen" or "display." The monitor displays the computer's user interface and open programs, allowing the user to interact with the computer, typically using the keyboard and mouse.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>The main function of a computer monitor is to display video and graphical information generated by the computers graphics adapter, allowing the user to interact with the computer. It is categorized as an output device.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="mouse"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Mouse&emsp;&emsp;</b></span>
+                  <img src="img/mouse.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>While most people don't want to see a mouse running Ismael Day-os home, they typically don't have a problem seeing one sitting by their computer. This is because, along with the keyboard, the mouse is one of the primary input devices used with today's computers. The name comes from the small shape of the mouse, which you can move quickly back and forth on the mouse pad, and the cord, which represents the mouse's tail. Of course, if you are using a wireless mouse, the analogy does not work so well.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>The computer mouse was one of the earliest PC peripherals, and it's still going strong as a constant companion of the keyboard. While the keyboard is set up for typing, the mouse is designed for pointing and clicking Ismael Day-os user interface, such as those used by Windows or the Mac OS, as well as by the many applications that run on those operating systems.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="keyboard"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Keyboard&emsp;&emsp;</b></span>
+                  <img src="img/Keyboard.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>Keyboard - External input device used to type data into some sort of computer system whether it be a mobile device, a personal computer, or another electronic machine. A keyboard usually includes alphabetic, numerical, and common symbols used in everyday transcription. Keyboards for personal computers are connected to the machine through serial or USB plugs. See also QWERTY keyboard, Dvorak keyboard.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A computer keyboard allows an operator to give commands to the computer in a simple way by pressing keys. The keys on a keyboard are typically labeled with their input function, ranging from letters of the alphabet to numbers and symbols.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="webcam"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>WebCam&emsp;&emsp;</b></span>
+                  <img src="img/webcam.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A webcam – short for ‘web camera’ – is a digital camera that’s connected to a computer. It can send live pictures from wherever it’s sited to another location by means of the internet. Many desktop computer screens and laptops come with a built-in camera and microphone, but if yours doesn’t, you can add a separate webcam at any time.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A webcam - is a small camera attached to a computer. They serve a variety of purposes, from taking still images to sending a live video over conference calls. Many laptops have a webcam built in to the computer screen, but external webcams are also sold. If you purchase an external webcam for use, you may also need to get a microphone if you plan on using the camera for either captured or live video.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="cpu"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>CPU (Central Processing Unit)&emsp;&emsp;</b></span>
+                  <img src="img/cpue.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>Stands for "Central Processing Unit." The CPU is the primary component of a computer that processes instructions. It runs the operating system and applications, constantly receiving input from the user or active software programs. It processes the data and produces output, which may stored by an application or displayed on the screen.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>The central processing unit (CPU) of a computer is a piece of hardware that carries out the instructions of a computer program. It performs the basic arithmetical, logical, and input/output operations of a computer system.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="printer"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Printer&emsp;&emsp;</b></span>
+                  <img src="img/printer.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A printer is an output device that prints paper documents. This includes text documents, images, or a combination of both. The two most common types of printers are inkjet and laser printers. Inkjet printers are commonly used by consumers, while laser printers are a typical choice for businesses. Dot matrix printers, which have become increasingly rare, are still used for basic text printing.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>The function of a printer is to turn digital data into printed media. This could be text, or it could be graphic output. One of the earliest printers to come with personal computers was the dot matrix printer.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="speaker"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Speaker&emsp;&emsp;</b></span>
+                  <img src="img/speaker.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>Speakers are one of the most common output devices used with computer systems. Some speakers are designed to work specifically with computers, while others can be hooked up to any type of sound system. Regardless of their design, the purpose of speakers is to produce audio output that can be heard by the listener.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A speaker's function is fairly simple. A speaker converts electrical signals into acoustical energy: sound. By moving back and forth, the speaker increases and decreases the air pressure in front of it thus creating sound waves. Below is a basic diagram of a speaker. </p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      <section data-role="page" id="headphone"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Headphone&emsp;&emsp;</b></span>
+                  <img src="img/headset.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>Headphones are small speakers that can be worn in or Ismael Day-os. Traditional headphones have two ear cups attached by a band that is placed over your head. Smaller headphones, often called earbuds or earphones, are placed inside the outer part of your ear canal.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>Headphones (or head-phones in the early days of telephony and radio) are a pair of small listening devices that are designed to be worn on or Ismael Day-os over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound in the user's ear.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      <section data-role="page" id="usb"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Flash Drive&emsp;&emsp;</b></span>
+                  <img src="img/usb.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>N/A</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>N/A</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="hdd"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Hard Disk Drive&emsp;&emsp;</b></span>
+                  <img src="img/hdd.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A hard disk drive (HDD), hard disk, hard drive or fixed disk [b] is a data storage device used for storing and retrieving digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A hard disk drive (HDD), hard disk, hard drive or fixed disk [b] is a data storage device used for storing and retrieving digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="modem"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Modem&emsp;&emsp;</b></span>
+                  <img src="img/modem.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A modem modulates outgoing digital signals from a computer or other digital device to analog signals for a conventional copper twisted pair telephone line and demodulates the incoming analog signal and converts it to a digital signal for the digital device.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A modem is an external or internal device thats function is to transmit digital data over communication lines. Traditional modems once used frequently with dial-up networks convert analog data from telephone lines into computer digital data. Broadband modems transfer digital data between two digital devices.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      <section data-role="page" id="computer"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Computer&emsp;&emsp;</b></span>
+                  <img src="img/computer.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A computer is a device that accepts information (in the form of digitalized data) and manipulates it for some result based on a program or sequence of instructions on how the data is to be processed. Complex computers also include the means for storing data (including the program, which is also a form of data) for some necessary duration. A program may be invariable and built into the computer (and called logic circuitry as it is on microprocessors) or different programs may be provided to the computer (loaded into its storage and then started by an administrator or user). Today's computers have both kinds of programming.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>There are basically for basic functions of computers - input, storage, processing and output. These are described below: Input: Receiving or accepting information from outside sources. The most common way of performing this function is through the information entered through the keyboard and the click of mouse.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+
+      <section data-role="page" id="scanner"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Scanner&emsp;&emsp;</b></span>
+                  <img src="img/scanner.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>A scanner is a device that captures images from photographic prints, posters, magazine pages, and similar sources for computer editing and display. Scanners come in hand-held, feed-in, and flatbed types and for scanning black-and-white only, or color. Very high resolution scanners are used for scanning for high-resolution printing, but lower resolution scanners are adequate for capturing images for computer display. Scanners usually come with software, such as Adobe's Photoshop product, that lets you resize and otherwise modify a captured image.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A scanner is a digital device that converts films, documents and photographic prints to digital images. It scans documents, which can be sent to a computer, printer, flash drive or email address.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      <section data-role="page" id="vc"><br>
+        <div align="left"><img src="img/search3.png"></div>
+          <div class="pagee-content"><br>
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title"><b>Video Card&emsp;&emsp;</b></span>
+                  <img src="img/vc.png">
+                    <span class="card-title"><b>Definition</b></span>
+                    <p>The video card is an expansion card that allows the computer to send graphical information to a video display device such as a monitor, TV, or projector. Some other names for a video card include graphics card, graphics adapter, display adapter, video adapter, video controller, and add-in boards (AIBs). A staggering number of companies manufacture video cards, but almost every one includes a graphics processing unit (GPU) from either NVIDIA Corporation or AMD.</p>
+                    <span class="card-title"><b>Function</b></span>
+                    <p>A video card connects to the motherboard of a computer system and generates output images to display. Video cards are also referred to as graphics cards. Video cards include a processing unit, memory, a cooling mechanism and connections to a display device.</p>
+              </div>
+            </div>
+            <a href="#words" transition="slide"><img src="img/return.png"  class="cutelogo" align="left" ></a>
+            <a href="#gate"><img src="img/home1.png"  class="cutelogo" align="right" ></a>
+          </div>
+          <div data-role="footer" data-position="fixed" class="centered_footer ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo">
+          <p class="small_footer">
+            &nbsp;<font color = "gold"></font>
+          </p>
+        </div>
+      </section>
+      </section>
+    </body>
+</html>
